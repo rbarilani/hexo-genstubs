@@ -2,7 +2,9 @@
   "name": "hexo-genstubs",
   "version": "0.1.0",
   "description": "Generate Hexo stub posts for memory and performance tuning",
-  "bin": "genstubs.js",
+  "bin": {
+   "hexo-genstubs": "index.js"
+  },
   "scripts": {
     "clean": "rm -rf source/_posts/*.md"
   },
